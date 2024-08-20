@@ -15,22 +15,16 @@ This script processes a user-defined date range, filters out weekends and U.S. f
 
 ## How to Use
 
-1. **Save the Script**: Save the script to your local machine as `leave_request.sh`.
+1. **Save the Script**: Save the script to your local machine as `pto_tool.sh`.
 
 2. **Make it Executable**: Run the following command to make the script executable:
-   ```bash
-   chmod +x leave_request.sh
+   
+  ` chmod +x pto_tool.sh`
 
-3. **Run the Script: Execute the script by running:
-```bash
-./leave_request.sh
+3. **Run the Script**: Execute the script by running:
+ `./pto_tool.sh`
 
 
-** Input Date Range: When prompted, input the date range in the format MM-DD-YYYY to MM-DD-YYYY.
+**Input Date Range**: When prompted, input the date range in the format MM-DD-YYYY to MM-DD-YYYY.
 
-Example
-bash
-Copy code
-Enter the leave request date range (e.g., 08-21-2024 to 09-20-2024):
-08-21-2024 to 09-20-2024
-The script will then output a list of valid workdays, excluding weekends and federal holidays, within the specified range.
+`Enter the leave request date range (e.g., 08-21-2024 to 09-20-2024):`
