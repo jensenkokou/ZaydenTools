@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script determines if we will be working on a friday or not
+
 # Define the reference off Friday date (October 11, 2024)
 REFERENCE_OFF_FRIDAY="2024-10-11"
 
